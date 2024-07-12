@@ -1,0 +1,84 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333; /* dark gray background */
+  }
+  
+  .mathgenie {
+    width: 100vw; /* take up the full width of the viewport */
+    height: 100vh; /* take up the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #444; /* dark gray background with a slight gradient */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .display {
+    width: 80%; /* take up 80% of the width */
+    height: 60px; /* adjust the height to fit the content */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff; /* white background */
+    color: #333; /* dark gray text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .keys {
+    width: 80%; /* take up 80% of the width */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .key {
+    width: calc(20% - 10px); /* calculate the width based on the number of keys per row */
+    height: 40px; /* adjust the height to fit the content */
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #666; /* dark gray background */
+    color: #fff; /* white text */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .key:hover {
+    background-color: #777; /* darker gray background on hover */
+  }
+  
+  .key:active {
+    background-color: #888; /* even darker gray background on active */
+  }
+  
+  .key#clear,.key#delete {
+    background-color: #ff9900; /* orange background for clear and delete buttons */
+    color: #fff;
+  }
+  
+  .key#equals {
+    background-color: #00ff00; /* green background for equals button */
+    color: #fff;
+  }
+  
+  .key.function {
+    background-color: #999; /* light gray background for function buttons */
+    color: #333;
+  }
