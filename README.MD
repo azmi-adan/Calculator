@@ -53,7 +53,7 @@ MathGenie was built using the following technologies:
 
 ## Author
 
-MathGenie was created by [Your Name]. If you have any questions or feedback, please don't hesitate to reach out.
+MathGenie was created by [Azmi Adan]. If you have any questions or feedback, please don't hesitate to reach out.
 
 ## Changelog
 
